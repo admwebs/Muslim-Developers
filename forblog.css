@@ -1,0 +1,44 @@
+@media (min-width: 1024px) {
+  .thenav {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: none;
+  }
+}
+
+.blog {
+  margin-top: 50px;
+}
+
+.blog-mum h2 {
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+
+@media (min-width: 750px) {
+  .blog {
+    margin-top: 100px;
+  }
+  .blog-mum h2 {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-left: 10;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog {
+    margin-top: 0;
+  }
+}
+
+@media (max-height: 550px) {
+  .blog {
+    margin-top: 10px;
+  }
+}

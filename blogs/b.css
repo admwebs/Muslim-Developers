@@ -1,0 +1,143 @@
+.thespace {
+  padding: 3px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.thespace br {
+  display: block;
+}
+.thespace h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  text-transform: capitalize;
+}
+
+.thespace a {
+  color: #0e76a8;
+}
+
+.thecontent {
+  width: 97%;
+  margin: auto;
+  margin-top: 85px;
+  margin-bottom: 50px;
+  color: #464646;
+  padding: 10px;
+  line-height: 1.8em;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 1em;
+  color: grey;
+  color: rgb(73, 73, 73);
+  color: #545454;
+  color: #323232;
+  color: #181818;
+}
+
+.thecontent h2 {
+  text-transform: capitalize;
+  color: black;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.thenav {
+  position: fixed;
+  width: 100%;
+  background: none;
+}
+.progress {
+  --progress: 0%;
+  height: 4px;
+  border-radius: 10%;
+  background-color: #0e76a8;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  width: var(--progress);
+  margin-top: 65px;
+}
+
+@media (max-height: 550px) {
+  .thecontent {
+    width: 65%;
+    margin-top: 70px;
+  }
+
+  .progress {
+    margin-top: 50px;
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .thecontent {
+    width: 97%;
+  }
+}
+
+@media (min-width: 768px) {
+  .thecontent {
+    width: 80%;
+    font-size: 1.6em;
+    margin-top: 120px;
+  }
+  .progress {
+    margin-top: 95px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .thecontent {
+    width: 65%;
+    margin-left: 50px;
+    font-size: 1.2em;
+    padding: 50px;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .progress {
+    margin-top: 65px;
+  }
+
+  .thecontent h2 {
+    padding: 10px;
+    padding-left: 0;
+    font-size: 1.8em;
+    margin-top: 20px;
+    padding-right: 100px;
+    text-transform: capitalize;
+  }
+}
+
+@media (min-width: 1600px) {
+  .thecontent {
+    margin-top: 110px;
+    font-size: 1.5em;
+  }
+}
+
+.thecontent div {
+  width: 100%;
+}
+
+.thecontent div img {
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+@media (min-width: 1024px) {
+  .thecontent div img {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+.thecontent h2 {
+  margin-bottom: 20px;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* ////////////// */
